@@ -1,0 +1,17 @@
+{
+  "canisters": {
+    "crud_backend": {
+      "candid": "src/crud_backend/crud_backend.did",
+      "package": "crud_backend",
+      "type": "rust"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
